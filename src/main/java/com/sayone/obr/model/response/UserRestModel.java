@@ -1,6 +1,6 @@
 package com.sayone.obr.model.response;
 
-public class UserRest {
+public class UserRestModel {
 
     private String firstName;
     private String lastName;

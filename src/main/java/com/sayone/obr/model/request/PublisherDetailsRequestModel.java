@@ -1,25 +1,13 @@
-package com.sayone.obr.shared.dto;
+package com.sayone.obr.model.request;
 
-import java.io.Serializable;
+public class PublisherDetailsRequestModel {
 
-public class UserDto implements Serializable {
-
-
-    private static final long serialVersionUID = 5733808691880507629L;
-    private String userId;
     private String firstName;
     private String lastName;
     private String email;
     private String password;
     private int phoneNumber;
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
+    private String address;
 
     public String getFirstName() {
         return firstName;
@@ -60,5 +48,12 @@ public class UserDto implements Serializable {
     public void setPhoneNumber(int phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-}
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+}
